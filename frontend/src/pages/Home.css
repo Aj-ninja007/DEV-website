@@ -1,0 +1,69 @@
+.home-container {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f') no-repeat center center/cover;
+  color: #fff;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.shop-btn {
+  background-color: #ff3f6c;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.shop-btn:hover {
+  background-color: #e6365e;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+}
+
+.feature-box {
+  flex: 1 1 300px;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.feature-box h3 {
+  margin-bottom: 10px;
+  color: #ff3f6c;
+}

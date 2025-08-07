@@ -1,0 +1,103 @@
+/* AdminPurchases.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Container for purchases */
+.admin-purchase-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.admin-purchase-container h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #1976d2;
+}
+
+/* Purchase card */
+.purchase-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #1976d2;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.purchase-card:hover {
+  transform: scale(1.02);
+}
+
+.purchase-card h4 {
+  font-size: 20px;
+  color: #2e3c50;
+  margin-bottom: 10px;
+}
+
+.purchase-card p {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+.purchase-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.purchase-card li {
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+/* Error and no purchases */
+.error {
+  color: #d32f2f;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.admin-purchase-container > p {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .admin-purchase-container {
+    padding: 15px;
+  }
+
+  .purchase-card {
+    padding: 15px;
+  }
+
+  .admin-purchase-container h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .admin-purchase-container h2 {
+    font-size: 22px;
+  }
+
+  .purchase-card h4 {
+    font-size: 18p
+  }
+}
